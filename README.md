@@ -1,12 +1,80 @@
-# React + Vite
+# Apna-MovieHub (React + Vite)
+This project is a minimal setup to get React running with Vite, including Hot Module Replacement (HMR) and ESLint rules.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Prerequisites
+Make sure you have installed:
+  Node.js (version 16 or above recommended)
+  npm
+## 2. Getting Started
+#### Clone the Repository
+git clone [https://github.com/Gyasuddin0786/movie-show]
+cd movie-show
 
-Currently, two official plugins are available:
+#### Install Dependencies
+```
+npm install
+```
+## 3. Run the Project
+```
+npm run dev
+```
+### Project will start at:
+👉 [http://localhost:5173]
+### Build for Production
+```
+npm run build
+```
+### Preview Production Build
+```
+npm run preview
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 4. ESLint Configuration
+This template comes with basic ESLint rules.
+For production applications, we recommend:
 
-## Expanding the ESLint configuration
+  Using TypeScript
+  Enabling type-aware lint rules via [typescript-eslint]
+Check out the [React + TS template]
+ for setup instructions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 5. Plugins
+Currently, two official Vite React plugins are available:
+
+[@vitejs/plugin-react] → uses Babel for Fast Refresh
+[@vitejs/plugin-react-swc] → uses SWC for Fast Refresh
+You can choose one depending on your project needs.
+
+## 6. Folder Structure (default)
+```
+.
+├── public        # static assets
+├── src
+│   ├── assets    # images, icons, styles
+│   ├── App.jsx   # main React component
+│   ├── main.jsx  # entry point
+│   └── index.css # global styles
+├── .eslintrc.cjs
+├── vite.config.js
+├── package.json
+└── README.md
+```
+## 7. Deployment Notes
+  You can deploy the build output (dist folder) to any static hosting service like Vercel, Netlify, GitHub Pages, or Firebase Hosting.
+
+  Example:
+  ```
+  npm run build
+  # then deploy the "dist" folder
+  ```
+## 8. License & Author
+
+License: MIT
+Author: Gyasuddin (replace with your name if needed)
+
+## 9. Screenshort
+<img width="1894" height="930" alt="image" src="https://github.com/user-attachments/assets/98f8cad9-3073-450e-b243-19a2441a05f2" />
+
+## 10. Live Check
+[https://apna-moviehub.netlify.app/]
+
