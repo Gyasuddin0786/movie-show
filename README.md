@@ -72,14 +72,14 @@ You can choose one depending on your project needs.
   ```
   npm run build
   ```
-## 8. License & Author
+
+## 8. Screenshort
+<img width="1894" height="930" alt="image" src="https://github.com/user-attachments/assets/98f8cad9-3073-450e-b243-19a2441a05f2" />
+
+## 9. Live Check
+[https://apna-moviehub.netlify.app/]
+
+## 10. License & Author
 
 License: MIT
 Author: Gyasuddin Ansari
-
-## 9. Screenshort
-<img width="1894" height="930" alt="image" src="https://github.com/user-attachments/assets/98f8cad9-3073-450e-b243-19a2441a05f2" />
-
-## 10. Live Check
-[https://apna-moviehub.netlify.app/]
-
