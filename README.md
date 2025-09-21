@@ -24,7 +24,7 @@ npm run dev
 ```
 ### Project will start at:
 ```
-👉 http://localhost:5173
+ http://localhost:5173
 ```
 ### Build for Production
 ```
@@ -40,15 +40,15 @@ This template comes with basic ESLint rules.
 For production applications, we recommend:
 
   Using TypeScript
-  Enabling type-aware lint rules via [typescript-eslint]
-Check out the [React + TS template]
+  Enabling type-aware lint rules via [https://typescript-eslint.io/]
+Check out the [https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts]
  for setup instructions.
 
 ## 5. Plugins
 Currently, two official Vite React plugins are available:
 
-[@vitejs/plugin-react] → uses Babel for Fast Refresh
-[@vitejs/plugin-react-swc] → uses SWC for Fast Refresh
+[https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react] → uses Babel for Fast Refresh
+[https://github.com/vitejs/vite-plugin-react-swc] → uses SWC for Fast Refresh
 You can choose one depending on your project needs.
 
 ## 6. Folder Structure (default)
@@ -71,12 +71,11 @@ You can choose one depending on your project needs.
   Example:
   ```
   npm run build
-  # then deploy the "dist" folder
   ```
 ## 8. License & Author
 
 License: MIT
-Author: Gyasuddin (replace with your name if needed)
+Author: Gyasuddin Ansari
 
 ## 9. Screenshort
 <img width="1894" height="930" alt="image" src="https://github.com/user-attachments/assets/98f8cad9-3073-450e-b243-19a2441a05f2" />
