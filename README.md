@@ -7,9 +7,13 @@ Make sure you have installed:
   npm
 ## 2. Getting Started
 #### Clone the Repository
-git clone [https://github.com/Gyasuddin0786/movie-show]
+```
+git clone https://github.com/Gyasuddin0786/movie-show
+```
+### Change the directory
+```
 cd movie-show
-
+```
 #### Install Dependencies
 ```
 npm install
@@ -19,7 +23,9 @@ npm install
 npm run dev
 ```
 ### Project will start at:
-👉 [http://localhost:5173]
+```
+👉 http://localhost:5173
+```
 ### Build for Production
 ```
 npm run build
